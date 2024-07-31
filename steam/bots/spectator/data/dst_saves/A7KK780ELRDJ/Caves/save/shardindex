@@ -1,0 +1,111 @@
+KLEI     1 return {
+  enabled_mods={
+    announcer={
+      configuration_options={ regen_settings_filename=".RegenFile002" },
+      enabled=true 
+    },
+    spectator={
+      configuration_options={ bulkmode=false, debug=false, logfilename="Meow_Together_2" },
+      enabled=true 
+    },
+    ["workshop-2589924141"]={ configuration_options={  }, enabled=true },
+    ["workshop-2970378670"]={
+      configuration_options={ food_estimation=0, food_order=1, food_style=1, lang="auto", show_food_units=0 },
+      enabled=true 
+    },
+    ["workshop-3226508424"]={
+      configuration_options={
+        ENABLEPINGS=true,
+        FIREOPTIONS=3,
+        OVERRIDEMODE=false,
+        SHAREMINIMAPPROGRESS=false,
+        SHOWFIREICONS=false,
+        SHOWPLAYERICONS=true,
+        SHOWPLAYERSOPTIONS=2 
+      },
+      enabled=true 
+    } 
+  },
+  server={
+    clan={ admin=false, id="103582791471994332", only=false },
+    description="Everybody is welcome here!  discord.gg/Y8RM2JJQ28",
+    encode_user_path=true,
+    game_mode="survival",
+    max_players=10,
+    name="Meow Together 2",
+    online_mode=true,
+    password="",
+    playstyle="survival",
+    privacy_type=0,
+    pvp=false,
+    server_language="en" 
+  },
+  session_id="16E80DB5986669E0",
+  version=5,
+  world={
+    options={
+      background_node_range={ 0, 1 },
+      desc="Delve into the caves... together!",
+      hideminimap=false,
+      id="DST_CAVE",
+      location="cave",
+      max_playlist_position=999,
+      min_playlist_position=0,
+      name="The Caves",
+      numrandom_set_pieces=0,
+      override_level_string=false,
+      overrides={
+        banana="default",
+        bats="default",
+        berrybush="default",
+        boons="default",
+        branching="default",
+        bunnymen="default",
+        cave_ponds="default",
+        cave_spiders="default",
+        cavelight="default",
+        chess="default",
+        disease_delay="default",
+        earthquakes="default",
+        fern="default",
+        fissure="default",
+        flint="default",
+        flower_cave="default",
+        grass="default",
+        layout_mode="RestrictNodesByKey",
+        lichen="default",
+        liefs="default",
+        loop="default",
+        marshbush="default",
+        monkey="default",
+        mushroom="default",
+        mushtree="default",
+        prefabswaps_start="default",
+        reeds="default",
+        regrowth="default",
+        roads="never",
+        rock="default",
+        rocky="default",
+        sapling="default",
+        season_start="default",
+        slurper="default",
+        slurtles="default",
+        start_location="caves",
+        task_set="cave_default",
+        tentacles="default",
+        touchstone="default",
+        trees="default",
+        weather="default",
+        world_size="default",
+        wormattacks="default",
+        wormhole_prefab="tentacle_pillar",
+        wormlights="default",
+        worms="default",
+        year_of_the_catcoon="enabled" 
+      },
+      required_prefabs={ "multiplayer_portal" },
+      substitutes={  },
+      version=4 
+    } 
+  } 
+}
